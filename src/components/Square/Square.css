@@ -1,0 +1,90 @@
+.ChatScreenContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.FriendPic{
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.MessagesContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.squareMSG{
+    color:black;
+    width: max-content;
+    align-self: flex-start;
+    background-color: #dcdcdc;
+    border-radius: 20px;
+    padding: 10px;
+    margin:0.5% 0;
+    overflow: hidden;
+
+}
+.uid{
+    color: red;
+    font-size: 1px;
+    font-weight: lighter;
+}
+.S{
+    justify-content: flex-end;
+}
+.SQcontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.InputContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.MessageInput{
+    width: 80%;
+    border-radius: 20px;
+    border:none;
+    padding: 10px;
+    background-color: #dcdcdc;
+    color:black;
+    outline:none;
+}
+.SendButton{
+    width: 15%;
+    height: 35.5px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #207dff;
+    color:white;
+    outline:none;
+    margin:1% 1% 0 2%;
+}
+
+@media only screen and (min-width:600px){
+    .MessageInput{
+        width: 90%;
+    }
+    .SendButton{
+        width: 5%;
+        margin: 0 1%;
+    }
+    .imgBTN{
+        width: 177.3px;
+    }
+}

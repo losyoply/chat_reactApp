@@ -1,0 +1,77 @@
+.ChatsProfilePic{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.ParentContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Chats{
+    display: flex;
+    margin-top: 20px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    align-items: center;
+    padding: 5px;
+    background: linear-gradient(to right, #52a4d0,#89b36b);
+    
+}
+.NameLink{
+    color: black;
+    text-decoration: none;
+}
+.ChatHeading{
+    align-self: center;
+    margin: 10px;
+}
+
+/*base code*/
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  .animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+  /*the animation definition*/
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      -ms-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      -ms-transform: none;
+      transform: none
+    }
+  }
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+  }
+  

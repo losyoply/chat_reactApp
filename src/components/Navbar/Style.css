@@ -1,0 +1,24 @@
+.NavbarContainer{
+    background: linear-gradient(to right, #181d6c,#572b56);
+    display:flex;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    justify-content: flex-start;
+}
+.Link{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+.Link:hover{
+    color: hsl(313, 54%, 79%);
+    cursor: pointer;
+}
+.Bi{
+    font-weight: bold;
+}

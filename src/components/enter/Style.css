@@ -1,0 +1,60 @@
+.EnterContainer{
+    /* display:; */
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius:20px;
+    margin: 20px; 
+    background-color: pink; 
+    border-color: pink; 
+    font-weight: bold;
+}
+
+#btnLogin{
+    background-color:cornflowerblue;
+    background-color:cornflowerblue;
+    border-color: cornflowerblue; 
+}
+#btnSignup{
+    background-color:rgb(240, 199, 122);
+    background-color:rgb(240, 199, 122);
+    border-color: rgb(240, 199, 122);
+}
+button:hover{
+    cursor: pointer;
+}
+.form-signin {
+    
+    width: 100%;
+    max-width: 475px;
+    padding: 15px;
+    margin: 0 auto;
+    
+}
+
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -16px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
